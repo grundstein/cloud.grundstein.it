@@ -20,7 +20,7 @@ npm i -g grundstein/hosts
 #### usage
 
 ```
-import * as hosts from '@grundstein/hosts'
+import hosts from '@grundstein/hosts'
 
 console.log(hosts)
 ```
