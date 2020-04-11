@@ -1,0 +1,45 @@
+{
+  "name": "@grundstein/grundstein.hosts",
+  "version": "0.0.1-alpha.0",
+  "author": "Wizards & Witches",
+  "homepage": "https://docs.grundstein.it/grundstein.hosts",
+  "license": "AGPL-3.0",
+  "description": "NOT YET BENCHMARKED OR IN PRODUCTION! @grundstein/grundstein.hosts: list of grundstein services and ip/port mappings",
+  "main": "src/index.mjs",
+  "private": true,
+  "engines": {
+    "node": ">=13.5.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "npm test",
+    "test": "t",
+    "format": "f -w"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grundstein/grundstein.hosts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grundstein/grundstein.hosts/issues"
+  },
+  "devDependencies": {
+    "@magic/format": "0.0.8",
+    "@magic/test": "0.1.41"
+  },
+  "keywords": [
+    "grundstein",
+    "static",
+    "page",
+    "server"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
