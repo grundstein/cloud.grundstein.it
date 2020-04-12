@@ -1,0 +1,13 @@
+[Unit]
+Description=gms - grundstein magic page server
+Documentation=https://docs.grundstein.it/gms
+After=network.target
+
+[Service]
+Type=simple
+User=gps
+ExecStart=gms
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

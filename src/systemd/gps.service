@@ -1,0 +1,13 @@
+[Unit]
+Description=gps - grundstein proxy service
+Documentation=https://docs.grundstein.it/gps
+After=network.target
+
+[Service]
+Type=simple
+User=gps
+ExecStart=/home/gps/cloud.grundstein.it/src/bin.mjs
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
