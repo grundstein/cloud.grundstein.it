@@ -17,10 +17,10 @@ sudo apt install -y certbot software-properties-common git
 addgroup grundstein
 
 # add user. one should be fine.
-adduser gps --group grundstein --disabled-login --quiet
+adduser grundstein --group grundstein --disabled-login --quiet
 
-# switch to gps user
-su gps
+# switch to grundstein user
+su grundstein
 
 # install nvm
 export NVM_DIR="$HOME/.nvm" && (
@@ -35,7 +35,7 @@ nvm install 13
 nvm use 13
 
 # clone the cloud env
-git clone https://github.com/grundstein/cloud.grundstein.it /home/gps/cloud.grundstein.it
+git clone https://github.com/grundstein/cloud.grundstein.it /home/grundstein/cloud.grundstein.it
 
 # back to root
 exit
