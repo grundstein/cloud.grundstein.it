@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+set -euf -o pipefail
+
+USERNAME="$USERNAME"
+NODE_VERSION=13
+
 # update apt-get sources
 sudo apt-get update
 
@@ -14,13 +19,13 @@ sudo apt-get update
 sudo apt install -y certbot software-properties-common git
 
 # setup group
-addgroup grundstein
+addgroup "$USERNAME"
 
 # add user. one should be fine.
-adduser grundstein --group grundstein --disabled-login --quiet
+adduser "$USERNAME" --group "$USERNAME" --disabled-login --quiet
 
 # switch to grundstein user
-su grundstein
+su "$USERNAME"
 
 # install nvm
 export NVM_DIR="$HOME/.nvm" && (
@@ -31,17 +36,17 @@ export NVM_DIR="$HOME/.nvm" && (
 
 # install node 13 and use it as default
 
-nvm install 13
-nvm use 13
+nvm install "$NODE_VERSION"
+nvm use "$NODE_VERSION"
 
 # clone the cloud env
-git clone https://github.com/grundstein/cloud.grundstein.it /home/grundstein/cloud.grundstein.it
+git clone "https://github.com/grundstein/cloud.grundstein.it" "/home/$USERNAME/cloud.grundstein.it"
 
 # back to root
 exit
 
 # create systemd startup files
-cp ./src/systemd/*.service /lib/systemd/system
+cp "./src/systemd/*.service" "/lib/systemd/system"
 
 # reload daemon to load new .service files
 systemctl daemon-reload
