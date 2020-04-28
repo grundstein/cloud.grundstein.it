@@ -29,11 +29,11 @@ export const hosts = [
     // these repositories will be watched and rebuilt when pushed to.
     // in the future, the staging branch will also be served.
     repositories: {
-      '178.128.136.72': {
+      'wiznwit.com': {
         host: 'github.com',
-        org: 'magic-examples',
-        repo: 'magic-examples.github.io',
-        branch: 'dev',
+        org: 'wizardsatwork',
+        repo: 'wizardsatwork.at',
+        branch: 'master',
       },
     },
   },
