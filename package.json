@@ -14,7 +14,8 @@
   "scripts": {
     "start": "grundstein",
     "test": "t -i grundstein-config.mjs",
-    "format": "f -w -i grundstein-config.mjs"
+    "format": "f -w -i grundstein-config.mjs",
+    "prod": "grundstein -p"
   },
   "files": [
     "src"
