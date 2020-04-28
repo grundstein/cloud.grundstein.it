@@ -26,6 +26,9 @@
   "bugs": {
     "url": "https://github.com/grundstein/grundstein.hosts/issues"
   },
+  "dependencies": {
+    "grundstein": "github:grundstein/cli"
+  },
   "devDependencies": {
     "@magic/format": "0.0.9",
     "@magic/test": "0.1.43"
