@@ -2,8 +2,6 @@ export const env = {
   TZ: 'Europe/Vienna',
   USERNAME: 'grundstein',
   USERHOME: '/home/grundstein',
-  NVM_NODE_VERSION: 13,
-  NVM_DIR: '$USERHOME/.nvm',
   GIT_URL: 'git://github.com/grundstein',
   SSH_USER: 'root',
   LOG_DIR: 'grundstein',
