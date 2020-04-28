@@ -1,5 +1,5 @@
 {
-  "name": "@grundstein/grundstein.hosts",
+  "name": "cloud.wiznwit.com",
   "version": "0.0.1-alpha.0",
   "author": "Wizards & Witches",
   "homepage": "https://docs.grundstein.it/grundstein.hosts",
@@ -12,8 +12,8 @@
   },
   "engineStrict": true,
   "scripts": {
-    "start": "src/bin.mjs",
-    "test": "t",
+    "start": "grundstein",
+    "test": "t -i grundstein-config.mjs",
     "format": "f -w -i grundstein-config.mjs"
   },
   "files": [
