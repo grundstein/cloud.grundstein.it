@@ -26,12 +26,9 @@
   "bugs": {
     "url": "https://github.com/grundstein/grundstein.hosts/issues"
   },
-  "dependencies": {
-    "@grundstein/gps": "github:grundstein/gps"
-  },
   "devDependencies": {
-    "@magic/format": "0.0.8",
-    "@magic/test": "0.1.41"
+    "@magic/format": "0.0.9",
+    "@magic/test": "0.1.43"
   },
   "keywords": [
     "grundstein",
