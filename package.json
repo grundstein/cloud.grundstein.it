@@ -14,7 +14,7 @@
   "scripts": {
     "start": "src/bin.mjs",
     "test": "t",
-    "format": "f -w"
+    "format": "f -w -i grundstein-config.mjs"
   },
   "files": [
     "src"
