@@ -4,3 +4,5 @@ yarn-error.log
 coverage
 .DS_Store
 bootstrap
+.secrets/*
+!.secrets/.gitkeep
