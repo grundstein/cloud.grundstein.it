@@ -35,6 +35,12 @@ export const hosts = [
         repo: 'wizardsatwork.at',
         branch: 'master',
       },
+      'magic.wiznwit.com': {
+        host: 'github.com',
+        org: 'magic',
+        repo: 'magic.github.io',
+        branch: 'dev',
+      },
     },
   },
 ]
