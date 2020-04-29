@@ -41,6 +41,12 @@ export const hosts = [
         repo: 'magic.github.io',
         branch: 'dev',
       },
+      '8aces.org': {
+        host: 'github.com',
+        org: '8aces',
+        repo: '8aces.org',
+        branch: 'master',
+      },
     },
   },
 ]
