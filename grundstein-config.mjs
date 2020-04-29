@@ -1,4 +1,4 @@
-import { env, gas, gps, grs, gms } from 'grundstein/src/defaultConfig.mjs'
+import { env } from 'grundstein/src/defaultConfig.mjs'
 
 export const hosts = [
   {
@@ -15,15 +15,15 @@ export const hosts = [
     hostnames: [],
 
     // which services should be installed and started on this pod?
-    services: {
+    services: [
       // this service should run on only one pod.
       // last to be decentralized, it is the certificate root until grundstein/gca exists.
-      gps,
+      'gps',
 
-      grs,
-      gms,
-      gas,
-    },
+      'grs',
+      'gms',
+      'gas',
+    ],
 
     // which repositories should gbs use to build from.
     // these repositories will be watched and rebuilt when pushed to.
