@@ -31,8 +31,8 @@ export const hosts = [
     repositories: {
       'wiznwit.com': {
         host: 'github.com',
-        org: 'wizardsatwork',
-        repo: 'wizardsatwork.at',
+        org: 'wiznwit',
+        repo: 'wiznwit.com',
         branch: 'master',
       },
       'magic.wiznwit.com': {
