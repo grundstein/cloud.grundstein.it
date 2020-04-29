@@ -31,8 +31,8 @@
     "grundstein": "github:grundstein/cli"
   },
   "devDependencies": {
-    "@magic/format": "0.0.9",
-    "@magic/test": "0.1.43"
+    "@magic/format": "0.0.10",
+    "@magic/test": "0.1.44"
   },
   "keywords": [
     "grundstein",
