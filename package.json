@@ -8,7 +8,7 @@
   "main": "src/index.mjs",
   "private": true,
   "engines": {
-    "node": ">=13.5.0"
+    "node": ">=14.14.0"
   },
   "engineStrict": true,
   "scripts": {
